@@ -64,7 +64,7 @@ export default function () {
             <div class="content">
               ${description}
               <br>
-             <strong>₹ {price}</strong> 
+             <strong>₹ ${price}</strong> 
             </div>
           </div>
         </div>
