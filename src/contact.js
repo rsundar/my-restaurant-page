@@ -1,4 +1,4 @@
-export default function () {
+const addContact = () => {
   const pageContent = document.querySelector('.page-content');
   pageContent.innerHTML = '';
   const div = document.createElement('div');
@@ -20,4 +20,6 @@ export default function () {
     </div>`;
   div.insertAdjacentHTML('beforeend', contactCard);
   pageContent.appendChild(div);
-}
+};
+
+export default addContact;

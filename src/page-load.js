@@ -1,6 +1,6 @@
 const content = document.querySelector('#app');
 
-export function createHeroLayout() {
+const createHeroLayout = () => {
   const section = document.createElement('section');
   section.className = 'hero is-fullheight has-bg-img';
   const heroContent = `  
@@ -27,9 +27,9 @@ export function createHeroLayout() {
         </div>`;
   section.insertAdjacentHTML('beforeend', heroContent);
   content.appendChild(section);
-}
+};
 
-export function createHomeContent() {
+const createHomeContent = () => {
   const section = document.createElement('section');
   section.className = 'section';
   section.id = 'content-section';
@@ -47,4 +47,9 @@ export function createHomeContent() {
   div.insertAdjacentHTML('beforeend', description);
   section.appendChild(div);
   content.appendChild(section);
-}
+};
+
+export {
+  createHeroLayout,
+  createHomeContent,
+};
