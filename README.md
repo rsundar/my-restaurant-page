@@ -5,7 +5,7 @@ I have used DOM manipulation to dynamically render the website using JavaScript 
 
 ## Live Demo
 
-You can try it [here](https://www.livedemo.com).
+You can try it [here](https://compassionate-stonebraker-f2bb82.netlify.app/).
 
 ## Built With
 
