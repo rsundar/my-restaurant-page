@@ -8,7 +8,7 @@ Page.createHomeContent();
 
 const homeLink = document.querySelector('#home-link');
 homeLink.addEventListener('click', () => {
-  const content = document.querySelector('#content');
+  const content = document.querySelector('#app');
   const target = document.querySelector('#content-section');
   content.removeChild(target);
   Page.createHomeContent();
