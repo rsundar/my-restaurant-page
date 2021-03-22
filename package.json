@@ -1,0 +1,38 @@
+{
+  "name": "my-restaurant-page",
+  "version": "1.0.0",
+  "description": "restuarant page app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsundar/my-restaurant-page.git"
+  },
+  "author": "Rohan Sundar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsundar/my-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/rsundar/my-restaurant-page#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "style-loader": "^2.0.0"
+  }
+}
